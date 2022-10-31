@@ -1,13 +1,20 @@
+"""
+A python script transfer video into images.
+It supports any OpenCV file format.
+
+Author: Thomas
+License: Apache
+Version: 0.0.1
+Email: thomas@graphopti.com
+Data: 2022-10-31
+"""
+
 import sys
 import math
 import cv2
 import argparse
 import os
 
-__author__ = “Thomas”
-__license__ = “MPL 2.0”
-__version__ = “0.1.0”
-__email__ = “thomas@graphopti.com”
 
 # --help / -H argument
 # --input / -i
