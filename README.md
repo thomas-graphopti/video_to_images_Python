@@ -1,5 +1,5 @@
 # video to images script
-A python script transfer video into images. It supports any OpenCV file format.
+A python script transfer video into images. It supports any OpenCV enabled file format.
 
 ## Usage
 ```
