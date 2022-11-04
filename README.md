@@ -1,6 +1,16 @@
 # video to images script
 A python script transfer video into images. It supports any OpenCV enabled file format.
 
+## Prerequisites
+1. python3
+2. opencv python
+
+Quick install with following command 
+``` 
+sudo apt-get update
+sudo apt-get install python3.6
+pip install opencv-python
+```
 ## Usage
 ```
 python3 video_to_imgs.py --help
