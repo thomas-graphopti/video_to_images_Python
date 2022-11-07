@@ -1,26 +1,34 @@
 # video to images script
+
 A python script transfers video into images with follwing features:
+
 1. It supports any OpenCV enabled file formats.
 2. Users can define output image format.
 3. Custom ouput fps, e.g. fps=5, store 5 images per second.
 
 ## Prerequisites
+
 1. python3
 2. opencv python
 
-Quick install with following command 
-``` 
+Quick install with following command
+
+```
 sudo apt-get update
 sudo apt-get install python3.6
 pip install opencv-python
 ```
+
 ## Usage
+
 Template usage with command:
+
 ```
 python3 video_to_imgs.py path_to_source_video_file path_to_image_folder
 ```
 
 For more options, use the help command:
+
 ```
 python3 video_to_imgs.py --help
 usage: video_to_imgs.py [-h] [-o OUTPUT_TYPE] [-f FPS] src dest
@@ -36,4 +44,6 @@ optional arguments:
   -f FPS, --fps FPS     Store frames per second (default: -1)
 ```
 
-It supports almost all video formats and save as any image formats (any OpenCV supported format).
+## License
+
+This porject is protected under [MIT license](./LICENSE). It is free to anyone for any purpose usage. `If you use this program, please star this project at github` [page](https://github.com/taohu1994/video_to_images_Python). `Your star envalues our work`.
