@@ -46,4 +46,4 @@ optional arguments:
 
 ## License
 
-This porject is protected under [MIT license](./LICENSE). It is free to anyone for any purpose usage. `If you use this program, please star this project at github` [page](https://github.com/taohu1994/video_to_images_Python). `Your star envalues our work`.
+This porject is protected under [MIT license](./LICENSE). It is free to anyone for any purpose. `If you use this program, please star this project at github` [page](https://github.com/taohu1994/video_to_images_Python). `Your star envalues our work`.
