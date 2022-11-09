@@ -11,12 +11,21 @@ A python script transfers video into images with follwing features:
 1. python3
 2. opencv python
 
+### For Ubuntu
 Quick install with following command
 
 ```
 sudo apt-get update
 sudo apt-get install python3.6
 pip install opencv-python
+```
+
+### For MacOS
+Quick install with following command
+
+```
+brew install python
+pip3 install opencv-python
 ```
 
 ## Usage
