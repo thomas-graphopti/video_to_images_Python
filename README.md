@@ -50,7 +50,7 @@ optional arguments:
   -h, --help            show this help message and exit
   -o OUTPUT_TYPE, --output_type OUTPUT_TYPE
                         output file type (default: jpeg)
-  -f FPS, --fps FPS     Store frames per second (default: -1)
+  -f FPS, --fps FPS     Store frames per second (default=fps of the src video)
 ```
 
 ## License
