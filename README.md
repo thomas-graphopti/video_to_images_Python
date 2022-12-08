@@ -1,11 +1,30 @@
 # video/images to images convter
 
+`If you use this program, please star this project at github` [page](https://github.com/taohu1994/video_to_images_Python). `Your star envalues our work`.
+
 Python script transfers video/images into images with follwing features:
 
 1. It supports any OpenCV enabled file formats.
 2. Users can define output image format.
 
-## Prerequisites
+The OpenCV support image formats list
+
+- Windows bitmaps - _.bmp, _.dib
+- JPEG files - _.jpeg, _.jpg, \*.jpe
+- JPEG 2000 files - \*.jp2
+- Portable Network Graphics - \*.png
+- WebP - \*.webp
+- Portable image format - _.pbm, _.pgm, _.ppm _.pxm, \*.pnm
+- PFM files - \*.pfm
+- Sun rasters - _.sr, _.ras
+- TIFF files - _.tiff, _.tif
+- OpenEXR Image files - \*.exr
+- Radiance HDR - _.hdr, _.pic
+- Raster and Vector geospatial data supported by GDAL
+
+## Install
+
+### Prerequisites
 
 1. python3
 2. opencv python
