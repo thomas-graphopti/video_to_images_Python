@@ -61,6 +61,8 @@ if not os.path.isdir(file_source):
 else:
     # store images for directory
     file_list = os.listdir(file_source)
+    if file_list is None:
+        sys.exit("No estimated image file at " + file_source)
     for file_ite in file_list:
         name_and_extention = os.path.splitext(file_ite)
         img = cv2.imread(file_source + file_ite)
