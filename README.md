@@ -1,10 +1,9 @@
-# video to images script
+# video/images to images convter
 
-A python script transfers video into images with follwing features:
+Python script transfers video/images into images with follwing features:
 
 1. It supports any OpenCV enabled file formats.
 2. Users can define output image format.
-3. Custom ouput fps, e.g. fps=5, store 5 images per second.
 
 ## Prerequisites
 
@@ -12,15 +11,17 @@ A python script transfers video into images with follwing features:
 2. opencv python
 
 ### For Ubuntu
+
 Quick install with following command
 
 ```
 sudo apt-get update
-sudo apt-get install python3.6
+sudo apt-get install python
 pip install opencv-python
 ```
 
 ### For MacOS
+
 Quick install with following command
 
 ```
@@ -29,6 +30,8 @@ pip3 install opencv-python
 ```
 
 ## Usage
+
+### Transfer video into images
 
 Template usage with command:
 
@@ -51,6 +54,30 @@ optional arguments:
   -o OUTPUT_TYPE, --output_type OUTPUT_TYPE
                         output file type (default: jpeg)
   -f FPS, --fps FPS     Store frames per second (default=fps of the src video)
+```
+
+### Transfer images into other format images
+
+Template usage with command:
+
+```
+python3 imgs_to_imgs.py path_to_source_image_file_or_folder path_to_destination_image_folder -o jpeg
+```
+
+For more options, use the help command:
+
+```
+python3 imgs_to_imgs.py --help
+usage: imgs_to_imgs.py [-h] [-o OUTPUT_TYPE] src dest
+
+positional arguments:
+  src                   Source location, should be a specific image file or a folder contain images
+  dest                  Destination folder destination for format transferred images
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -o OUTPUT_TYPE, --output_type OUTPUT_TYPE
+                        output file type (default: jpeg)
 ```
 
 ## License
