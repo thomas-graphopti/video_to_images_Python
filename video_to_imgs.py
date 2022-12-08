@@ -9,12 +9,12 @@ Email: thomas@graphopti.com
 Data: 2022-10-31
 """
 
-import sys
-import math
-import cv2
 import argparse
+import math
 import os
+import sys
 
+import cv2
 
 # --help / -H argument
 # --input / -i
