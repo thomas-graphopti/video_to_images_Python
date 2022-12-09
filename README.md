@@ -1,11 +1,12 @@
 # video/images to images convter
 
-`If you use this program, please star this project at github` [page](https://github.com/taohu1994/video_to_images_Python). `Your star envalues our work`.
+`If you use this program, please star this project at github page. Your star envalues our work`.
 
-Python script transfers video/images into images with follwing features:
+Python script transfers video/images into opencv supported format images with follwing features:
 
 1. It supports any OpenCV enabled file formats.
 2. Users can define output image format.
+3. It could transfer all images under a folder to another image formats.
 
 The OpenCV support image formats list
 
